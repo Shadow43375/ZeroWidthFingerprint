@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+.container {
+  z-index: 1;
+  background-color: white;
+  border: solid grey; 
+  margin-top: 50px;
+  max-width: 750px;
+}
+
+
+#encryptionForm {
+  margin-top: 25px;
+  height: 150px;
+}
+
+.decipherInput {
+  height: 100%;
+}
+
+#enterButton {
+  height: 50px;
+  margin-top: 15px;
+}
+
+#cipherTextOutput { 
+  margin-top: 20px;
+  margin-bottom: 25px;
+  height: 150px;
+}
+/* 
+#toggleSection {
+  margin-right: 10px;
+} */
+
+
+/* ---- reset ---- */ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #000000; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }

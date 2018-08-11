@@ -1,0 +1,20 @@
+{
+  "name": "ZeroWidthFingerprinting",
+  "authors": [
+    "James S. Bayne <enyab.null@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}

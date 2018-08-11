@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Invisible Digital Ink</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="ZeroWidthFingerPrint.css" />
+  <link rel="stylesheet" href="C:\Users\James S. Bayne\Desktop\WebDev\ZeroWidthFingerprinting\bower_components\flexboxgrid\dist\flexboxgrid.css" type="text/css">
+</head>
+<body>
+
+      <div class="container">
+          <div id="encryptionForm" class="row  around-xs">
+              <textarea class="col-xs-4 decipherInput" type="text" id="textInput" placeholder="info to be hidden"></textarea>
+              <textarea class="col-xs-4 decipherInput" type="text" id="distractionTextInput" placeholder="distraction text" ></textarea>
+          </div>
+          <div class="row center-xs">
+            <button type="button" id="enterButton" class="col-xs-2">Enter</button>
+          </div>
+          <div class="row center-xs">
+            <textarea class="col-xs-8" type="text" id="cipherTextOutput" placeholder="info with hidden"></textarea>            
+          </div>
+
+          <div class="row end-xs">
+            <section id="toggleSection" class="col-xs-2"><input type="checkbox" name="" value="encode" id="modeToggle"> <label>Decode Mode</label></section>
+          </div>
+      </div>
+
+  <div id="particles-js"></div>
+
+  <script src="bower_components/particles.js/particles.js"></script>
+  <script src="particles.js"></script>
+  <script src="ZeroWidthFingerPrint.js"></script>
+
+</body>
+</html>
